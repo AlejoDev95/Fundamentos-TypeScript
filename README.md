@@ -936,3 +936,9 @@ Asi como podemos crear tipos personalizados para los tipo primitivos tambien pod
   console.log("listOfProducts", listOfProducts);
 })();
 ```
+
+## Modulos: Imports y Exports
+
+En typescript podemos realizar programación modular y separar responsabilidades en diferentes archivos. La ventaja de este enfoque es que podemos dividir nuestra aplicación en modulos o componentes independientes que realizan tareas especificas.
+
+En typescript para que un elemento pueda ser usado tenemos que anteponerle la palabra reservada **export** y para llamarlo usamos **import**.
